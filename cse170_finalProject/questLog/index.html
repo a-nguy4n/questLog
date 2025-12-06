@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Dashboard Page</title>
+
+    <link rel="stylesheet" href="/questLog/css/pages/home.css">
+    <link rel="stylesheet" href="/questLog/css/components/focus-widget.css">
+    <link rel="stylesheet" href="/questLog/css/components/friends-widget.css">
+    <link rel="stylesheet" href="/questLog/css/components/profileHeader-widget.css">
+    <link rel="stylesheet" href="/questLog/css/components/questsPlanner-widget.css">
+    <link rel="stylesheet" href="/questLog/css/components/wellBeing-widget.css"> 
+</head>
+<body>
+    <div class="widget-container">
+        <profile-widget class="row-one"></profile-widget>
+    
+        <div class="row-two">
+            <focus-widget></focus-widget>
+            <quests-widget></quests-widget>
+        </div>
+
+        <div class="row-three">
+            <friends-widget></friends-widget>
+            <wellbeing-widget></wellbeing-widget>
+        </div>
+    </div>
+    
+    <script type="module" src="/questLog/js/widgets.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+@font-face{
+    font-family: "Pixelify Sans";
+    src: url("/questLog/assets/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: "Poppins SemiBold";
+    src: url("/questLog/assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+
+/* body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b9be3;
+    font-family: "Poppins SemiBold";
+} */
+
+.wellbeing-card{
+    background: #FFFDF3;
+    padding: 3% 4%;
+    border-radius: 13px;
+    width: 100%;
+}
+
+.wellbeing-title{
+    font-family: "Pixelify Sans";
+    font-size: 2.2rem;
+    margin: 0 0 5% 0;
+    color: #134668;
+}
+
+.status-row{
+    justify-self: center;
+    width: 98%;
+    margin-bottom: 3%;
+}
+
+.status-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.status-label{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #134668;
+}
+
+.status-value{
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #134668;
+}
+
+.progress-track{
+    height: 20px;
+    border-radius: 25px;
+    background: #eceff4;
+    overflow: hidden;
+}
+
+.progress-fill{
+    height: 100%;
+    border-radius: inherit;
+}
+
+.progress-fill.health{
+    background: #38ACFF;
+}
+
+.progress-fill.motivation{
+    background: #FFE357;
+}
+
+#log-wellbeingBtn{
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    justify-content: center;
+    font-family: "Pixelify Sans";
+    white-space: nowrap;
+    gap: 5%;
+    margin-top: 5%;
+    padding: 1% 3.5%;
+    border-radius: 25px;
+    border: none;
+    background: #104769;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#log-wellbeingBtn:hover{
+    background: #002636;
+    transition: background-color 0.3s;
+}
+
+#log-wellbeingBtn img{
+    display: block;
+    width: 23px;    
+    height: 23px;
+}

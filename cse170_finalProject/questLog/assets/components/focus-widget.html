@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Widget</title>
+    <link rel="stylesheet" href="/questLog/css/components/focus-widget.css"> 
+</head>
+<body>
+    <section class="focus-card">
+        <h1 class="focus-title">Focus-Mode</h1>
+
+        <div class="focus-timer">
+            <span class="time-box">
+                <input type="number" id="hours" class="time-input" min="0" max="23" value="00"/>
+                <p class="time-label"> Hours </p>
+            </span>
+
+            <span class="colon">:</span>
+
+            <span class="time-box">
+                <input type="number" id="minutes" class="time-input" min="0" max="59" value="00"/>
+                <p class="time-label"> Minutes </p>
+            </span>
+
+            <span class="colon">:</span>
+
+            <span class="time-box">
+                <input type="number" id="seconds" class="time-input" min="0" max="59" value="00"/>
+                <p class="time-label"> Seconds </p>
+            </span>
+        </div>
+
+        <button class="startBtn">
+            <img src="/questLog/assets/images/dashIcons/play-icon.svg" class="play-icon" alt="">
+            Start
+        </button>
+
+        <hr class="focusDivider">
+
+        <div class="break-info">
+            <p class="break-row">5 Breaks Taken <span>= 3h 17m total</span></p>
+            <p class="break-row">NEXT <span>in 40 m</span></p>
+            <p class="break-row">LAST <span>2h 15m ago</span></p>
+        </div>
+    </section>
+
+</body>
+</html>

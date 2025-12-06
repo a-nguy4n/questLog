@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Planner Widget</title>
+    <link rel="stylesheet" href="/questLog/css/components/questsPlanner-widget.css"> 
+</head>
+<body>
+
+    <section class="quest-card">
+        <h1 class="quest-title">Today’s Quests</h1>
+
+        <div class="quest-tabs">
+            <button class="quest-tab quest-tab-active">Main Quests</button>
+            <button class="quest-tab">Daily Quests</button>
+            <button class="quest-tab">Side Quests</button>
+        </div>
+        
+        <div class="quest-list">
+            <article class="quest-item">
+                <label class="quest-content">
+                    <input type="checkbox"/>
+                    <span class="quest-text">Complete Assignment #6</span>
+                </label>
+                <span class="quest-xp">+ 50 xp</span>
+            </article>
+
+            <article class="quest-item">
+                <label class="quest-content">
+                    <input type="checkbox" />
+                    <span class="quest-text">Programming Assignment</span>
+                </label>
+                <span class="quest-xp">+ 250 xp</span>
+            </article>
+
+            <article class="quest-item">
+                <label class="quest-content">
+                    <input type="checkbox"/>
+                    <span class="quest-text">Essay for Class Something Something</span>
+                </label>
+                <span class="quest-xp">+ 200 xp</span>
+            </article>
+
+            <article class="quest-item">
+                <label class="quest-content">
+                    <input type="checkbox" />
+                    <span class="quest-text">HW #1 on PrairieLearn</span>
+                </label>
+                <span class="quest-xp">+ 100 xp</span>
+            </article>
+
+            <article class="quest-item">
+                <label class="quest-content">
+                    <input type="checkbox" />
+                    <span class="quest-text">Class Readings</span>
+                </label>
+                <span class="quest-xp">+ 130 xp</span>
+            </article>
+        </div>
+
+        <div class="quest-footer">
+            <p class="quest-total"> Main Quests Completed <span>0</span> / 12 </p>
+            
+            <button class="questOpen-btn">
+                <img src="/questLog/assets/images/dashIcons/editQuestPlanner-icon.svg" alt="Open Planner Icon"/>
+                Open Quest Planner
+            </button>
+        </div>
+    
+    </section>
+
+</body>
+</html>

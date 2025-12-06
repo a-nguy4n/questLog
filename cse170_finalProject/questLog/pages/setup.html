@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Set-Up</title>
+    <link rel="stylesheet" href="/questLog/css/pages/setup.css">
+</head>
+<body>
+
+    <a href="/questLog/index.html"> ← Back </a>
+
+    <main class="profile-setup">
+        <section class="profile-card">
+        <h1>Profile Set-Up</h1>
+
+            <div class="profile-layout">
+                <figure class="avatar-preview">
+                <div class="avatar-circle">
+                    <img id="selected-avatar" src="/questLog/assets/images/characters/cow-char.svg" alt="Selected Avatar"/>
+                </div>
+                </figure>
+
+                <div class="profile-controls">
+                <label class="sr-only" for="username">Username</label>
+                <input
+                    id="username"
+                    type="text"
+                    class="username-input"
+                    placeholder="Click here to write your username"
+                />
+
+                <p class="color-label">Pick your background color.</p>
+
+                <input
+                    id="color-slider"
+                    type="range"
+                    min="0"
+                    max="360"
+                    value="180"
+                />
+
+                <button type="button" class="primary-btn">Let’s Go!</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="/questLog/js/setup.js"></script>
+</body>
+</html>

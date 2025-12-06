@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Pixelify Sans";
+    src: url("/questLog/assets/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url("/questLog/assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: #0b9be3;
+    font-family: "Poppins SemiBold";
+}
+
+.widget-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+profile-widget,
+focus-widget,
+quests-widget,
+friends-widget,
+wellbeing-widget{
+    display: block;
+}
+
+friends-widget,
+wellbeing-widget{
+  position: relative;
+}
+
+.row-one{
+    display: flex;
+    width: 95%;
+    margin: 2.5% 0 0 0;
+}
+
+.row-two,
+.row-three{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 95%;
+    gap: 3%;
+    margin: 2.5% 0 0 0;
+    align-items: stretch; 
+}
+
+.row-two focus-widget,
+.row-three friends-widget{
+    display: flex; 
+    flex: 0.9 1 0;  
+}
+
+.row-two quests-widget,
+.row-three wellbeing-widget{
+    display: flex; 
+    flex: 2 1 0;  
+}
+
+.row-three{
+    margin-bottom: 2.5%;
+}
+
